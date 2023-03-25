@@ -22,7 +22,9 @@ body {
 .container {
   padding: 10px 10%;
 }
-
+.dots {
+  color: #6a06cf;
+}
 nav {
   display: flex;
   align-items: center;
@@ -47,7 +49,7 @@ nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #6a06cf;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -66,7 +68,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-  color: #ff004f;
+  color: #6a06cf;
 }
 /* ------------------about--------------- */
 #about {
@@ -108,7 +110,7 @@ nav ul li a:hover::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #6a06cf;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -168,7 +170,7 @@ nav ul li a:hover::after {
   display: inline-block;
 }
 .services-list div:hover {
-  background: #ff004f;
+  background: #6a06cf;
   transform: translateY(-10px);
 }
 /* -----------portfolio------------- */
@@ -195,7 +197,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #6a06cf);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -216,7 +218,7 @@ nav ul li a:hover::after {
 }
 .layer a {
   margin-top: 20px;
-  color: #ff004f;
+  color: #6a06cf;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -236,7 +238,7 @@ nav ul li a:hover::after {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid #6a06cf;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -245,7 +247,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-  background: #ff004f;
+  background: #6a06cf;
 }
 /* -----------contact---------- */
 .contact-left {
@@ -259,7 +261,7 @@ nav ul li a:hover::after {
   margin-top: 30px;
 }
 .contact-left p i {
-  color: #ff004f;
+  color: #6a06cf;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -276,12 +278,12 @@ nav ul li a:hover::after {
   transition: transform 0.5s;
 }
 .contact-left a:hover {
-  color: #ff004f;
+  color: #6a06cf;
   transform: translateY(-5px);
 }
 .btn.btn2 {
   display: inline-block;
-  background: #ff004f;
+  background: #6a06cf;
 }
 .contact-right form {
   width: 100%;
@@ -333,7 +335,7 @@ nav .fas {
     font-size: 25px;
   }
   nav ul {
-    background: #ff004f;
+    background: #6a06cf;
     position: fixed;
     top: 0;
     right: -200px;
